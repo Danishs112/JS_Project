@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form-look">
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+            <input type="number" id="age" placeholder="Enter your age">
+            <br>
+            <input type="number" id="height" placeholder="Enter your height in cm">
+            <br>
+            <input type="number" id='weight' placeholder="Enter your weight in kg">
+            <br>
+            <input type="number" id="percentage" placeholder="Enter your percentage">
+            <br>
+            <input type="submit" id='btn'>
+        </form> 
+        <br>
+        <select id="sort">
+            <option value= "0">Select an Item</option>
+            <option value="age">Age</option>
+            <option value="height">Height</option>
+            <option value="weight">Weight</option>
+            <option value="percentage">Percentage</option>
+        </select>
+        <input type="number" min=0 max=10 id="show_num" placeholder="value">
+        <br><br>
+        <button id="btn1">Sort</button>
+      </div>
+
+      <div class="container2">
+        <table id="table-id">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Percentage</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <button id="prev">Prev</button><button id="next">Next</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
